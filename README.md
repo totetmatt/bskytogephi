@@ -1,5 +1,7 @@
 # Bksy to Gephi
 
+https://totetmatt.github.io/bskytogephi 
+
 Bksy to Gephi is a small application that allows you to navigate and visualise the network of followers in Bluesky / ATProtocol.
 
 Keep in mind that it's a "toy" project, I'm not expert in JS 
