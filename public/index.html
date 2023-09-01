@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluesky to Gephi</title>
+<style>
+    * {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.05em;
+    
+    }
+    .loginPanel{
+        display: flex;
+    }
+    .loginPanel span, .loginPanel input {
+        padding: 1px;
+        margin: 1px;
+     
+    }
+    .loginPanel span {
+        vertical-align: middle;
+        width: 10vw;;
+    }
+    button {
+        border: 2px solid #111111;
+    }
+    .connected {
+        background-color: greenyellow;
+    }
+    .connected:hover {
+        background-color: green;
+    }
+
+    .error {
+        background-color: red;
+    }
+
+    .error:hover{
+        background-color: orangered;
+    }
+    #accountsList {
+        height: 50vh;
+        max-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+</style>
+    <script src="bundle.js"></script>  
+</head>
+<body>
+    <h1>Bluesky to Gephi</h1>
+    <div id="bskyLoginPanel" class="loginPanel">
+        <span>Login :</span> <input id="handle" type="text" value=""> 
+        <span>Password (<a target="_blank" href="https://bsky.app/settings/app-passwords">APP PASSWORD</a>, not your account pasword):</span> <input id="password" type="password" value="">
+        <button id="connectBsky">Connect</button>
+    </div>
+    <div id="wsLoginPanel" class="loginPanel">
+        <span>Url :</span> <input id="urlWs" type="text" value="ws://localhost:9876/"> 
+        <button id="connectWs">Connect</button>
+    </div>
+    <div id="searchPanel">
+       <span>Get ego network of : <textarea id="actor" type="text" >totetmatt.fr</textarea> </span> <button id="getFollowerBtn">Go !</button>
+    </div>
+    <div id="accountsList">
+
+
+    </div>
+</body>
+</html>

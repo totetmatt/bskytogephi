@@ -1,0 +1,15 @@
+{
+  "name": "gephibsky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build-js": "browserify ./src/app.js -o ./public/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atproto/api": "^0.6.8",
+    "browserify": "^17.0.0"
+  }
+}
