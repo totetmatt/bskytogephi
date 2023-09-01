@@ -11,7 +11,7 @@ Keep in mind that it's a "toy" project, I'm not expert in JS
 * A Bluesky account
 * Generate an application password on Bluesky (https://bsky.app/settings/app-passwords)
 
-# Starting
+# Quick Start
 
 ## Prepare Gephi.
 
@@ -27,6 +27,9 @@ Keep in mind that it's a "toy" project, I'm not expert in JS
 - A list of user will appears. If you click on them, it will fetch their network and update to Gephi.
 ![Notification in Streaming plugin](imgs/002_Streaming_plugin_gephi.png)
 ![BskytoGephi Example](imgs/003_bskytogephi.png)
+
+Quickstart Video : https://www.youtube.com/watch?v=S9WPYKwFCa8
+
 # Collaborative search
 (Will detail later)
 If you are multiple persons, you can centralise you search by having One gephi server running and all "client" sending to the correct address. 
