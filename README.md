@@ -17,7 +17,7 @@ Keep in mind that it's a "toy" project, I'm not expert in JS
 
 ## Prepare Gephi.
 
-- Open Gephi, **Create a new project (File> New Project)** if you installed the  `Graph Streaming` plugin, you should have a tab on the left-bottom side called `Streaming`. Select this table and click on `Settings...`.
+- Open Gephi, **Create a new project (File> New Project)**, if you installed the  `Graph Streaming` plugin, you should have a tab on the left-bottom side called `Streaming`. Select this table and click on `Settings...`.
 - On **HTTP Server Settings** > **Port** set `9876` (or any port available). Then click on `Ok`.
 - Right-Click on `Master Server` and select `Start`. The dot next to it should become green.
 ![Configuration of Streaming plugin](imgs/001_Streaming_plugin_gephi.png)
